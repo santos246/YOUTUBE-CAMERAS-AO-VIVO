@@ -48,22 +48,22 @@ body {
 }
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #DF0101;
 }
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: #3ADF00;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #3ADF00;
   color: black;
 }
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #3ADF00;
   color: white;
 }
 </style>
@@ -71,14 +71,51 @@ body {
 <body>
 <div class="topnav">
 
-  <a class="active" href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
+<a class="active" href="../index.html">AO VIVO</a>
+<a href="../RECEITAS/1 - Copia.html">RECEITAS</a>
+<a href="../FILMES/1 - Copia.html">FILMES</a>
+<a href="../DOCUMENTARIOS/1 - Copia.html">DOCUMENTÁRIOS</a>
+<a href="../OUTROS/1 - Copia.html">OUTROS</a>
 
 </div>
 <!--------------------------------------------------------->
-
+<script src="https://code.jquery.com/jquery-1.11.2.js"></script>
+<script type="text/javascript">
+jQuery(window).load(function($){
+atualizaRelogio();
+});
+</script>
+</HEAD>
+<BODY>
+<div>
+<output id="data" style="font-family: 'arial black', 'avant garde'; font-size: 24px;"></output>
+</div>
+<div>
+<output id="hora" style="font-family: 'arial black', 'avant garde'; font-size: 24px;"></output>				
+</div>			
+</BODY>
+<script>
+function atualizaRelogio(){ 
+var momentoAtual = new Date();
+var vhora = momentoAtual.getHours();
+var vminuto = momentoAtual.getMinutes();
+var vsegundo = momentoAtual.getSeconds();
+var vdia = momentoAtual.getDate();
+var vmes = momentoAtual.getMonth() + 1;
+var vano = momentoAtual.getFullYear();
+if (vdia < 10){ vdia = "0" + vdia;}
+if (vmes < 10){ vmes = "0" + vmes;}
+if (vhora < 10){ vhora = "0" + vhora;}
+if (vminuto < 10){ vminuto = "0" + vminuto;}
+if (vsegundo < 10){ vsegundo = "0" + vsegundo;}
+dataFormat = vdia + " / " + vmes + " / " + vano;
+horaFormat = vhora + " : " + vminuto + " : " + vsegundo;
+document.getElementById("data").innerHTML = dataFormat;
+document.getElementById("hora").innerHTML = horaFormat;
+setTimeout("atualizaRelogio()",1000);
+}
+</script>	
+</HTML>
 <!--------------------------------------------------------->
 <div style="padding-left:16px">
 </div>
@@ -86,101 +123,504 @@ body {
 </html>
 <!--------------------------------------------------------->
 </div>
-<h1>YOUTUBE ON-LINE</h1>
+<h1><b>YOUTUBE ON-LINE</b></h1>
+<!--------------------------------------------------------->
 <!--------------------------------------------------------->
 <!--------------------------------------------------------->
 <!--------------------------------------------------------->
 <!--------------------------------------------------------->
 <!--------------------------------------------------------->
 <button> <a href="
-https://www.youtube-nocookie.com/embed/-I6qbjZk0HM
+🔴LINK
 " target="_blank"><img src="
-https://i.ytimg.com/vi/-I6qbjZk0HM/maxresdefault_live.jpg
+🔴IMAGEM
 " width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
-🔴 PHILIPPINES Camera 1
+🔴NOME
 </h4><textarea rows="6" cols="37" maxlength="1500">
-🔴 PHILIPPINES Live Street View Camera 1, Agdao, Davao City
+🔴SOBRE
 </textarea></button>
 <!--------------------------------------------------------->
 <button> <a href="
-https://www.youtube-nocookie.com/embed/_XMFqf5jOKc
+🔴LINK
 " target="_blank"><img src="
-https://i.ytimg.com/vi/_XMFqf5jOKc/maxresdefault.jpg?v=6270ffc0
+🔴IMAGEM
 " width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
-🔴 PHILIPPINES Camera 2
+🔴NOME
 </h4><textarea rows="6" cols="37" maxlength="1500">
-🔴 PHILIPPINES Live Street View Camera 2, Agdao, Davao City
+🔴SOBRE
 </textarea></button>
 <!--------------------------------------------------------->
 <button> <a href="
-https://www.youtube-nocookie.com/embed/ZCiK4_BMzxk
+🔴LINK
 " target="_blank"><img src="
-https://i.ytimg.com/vi/ZCiK4_BMzxk/maxresdefault_live.jpg
+🔴IMAGEM
 " width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
-The Shack
+🔴NOME
 </h4><textarea rows="6" cols="37" maxlength="1500">
-🔴 The Shack | Fisherman's Village | Koh Samui | Thailand | Live Street Webcam Stream | 1440p HD
+🔴SOBRE
 </textarea></button>
 <!--------------------------------------------------------->
 <button> <a href="
-https://www.youtube-nocookie.com/embed/vvOjJoSEFM0
+🔴LINK
 " target="_blank"><img src="
-https://i.ytimg.com/vi/vvOjJoSEFM0/maxresdefault_live.jpg
+🔴IMAGEM
 " width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
-Los Angeles
+🔴NOME
 </h4><textarea rows="6" cols="37" maxlength="1500">
-🔴 Venice Beach LIVE Los Angeles Stream · presented by the Venice V Hotel
+🔴SOBRE
 </textarea></button>
 <!--------------------------------------------------------->
 <button> <a href="
-https://www.youtube-nocookie.com/embed/gFTM_VqQipI
+🔴LINK
 " target="_blank"><img src="
-https://i.ytimg.com/vi/gFTM_VqQipI/maxresdefault_live.jpg
+🔴IMAGEM
 " width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
-New York
+🔴NOME
 </h4><textarea rows="6" cols="37" maxlength="1500">
-New York City Harbor, Waterfront Museum, Brooklyn NY USA | StreamTime LIVE
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
 </textarea></button>
 <!--------------------------------------------------------->
 <button> <a href="
-https://www.youtube-nocookie.com/embed/HpZAez2oYsA
+🔴LINK
 " target="_blank"><img src="
-https://i.ytimg.com/vi/HpZAez2oYsA/maxresdefault_live.jpg
+🔴IMAGEM
 " width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
-Ponte delle Guglie Venice
+🔴NOME
 </h4><textarea rows="6" cols="37" maxlength="1500">
-🔴 4K Live Cam of Ponte delle Guglie Venice - View from Hotel Filù Venezia - Live stream ライブカメラ
+🔴SOBRE
 </textarea></button>
 <!--------------------------------------------------------->
-
-
-
-
-
-
-
-<!-----------------------------
 <button> <a href="
-LINK
+🔴LINK
 " target="_blank"><img src="
-IMAGEM 
+🔴IMAGEM
 " width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
-TÍTULO
+🔴NOME
 </h4><textarea rows="6" cols="37" maxlength="1500">
-SOBRE
+🔴SOBRE
 </textarea></button>
---------------------------->
-
-
-
-
-
-
-
-
-
-
-
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<button> <a href="
+🔴LINK
+" target="_blank"><img src="
+🔴IMAGEM
+" width="345" style="border: #0000FF Solid 10px;"></a><br/><h4>
+🔴NOME
+</h4><textarea rows="6" cols="37" maxlength="1500">
+🔴SOBRE
+</textarea></button>
+<!--------------------------------------------------------->
+<!--------------------------------------------------------->
+<!--------------------------------------------------------->
 <!--------------------------------------------------------->
 <!--------------------------------------------------------->
 <!--------------------------------------------------------->
@@ -203,7 +643,7 @@ h1 {
 <!--------------------------------------------------------->
 <HR SIZE="7">
 <HR WIDTH="80%">
-<!------------------------PAGINAÇÃO --------
+<!------------------------PAGINAÇÃO ----------------------->
 <!DOCTYPE html>
 <html>
 <head>
@@ -231,14 +671,14 @@ h1 {
 <body>
 <div class="pagination">
 
-  <a href="index.html" class="active">🏠</a>
   <a href="1 - Copia.html">1</a>
-  <a href="1 - Copia (2).html">2</a>
+  <a href="1 - Copia (2).html" class="active">2</a>
+  <a href="1 - Copia (3).html">3</a>
 
 </div>
 </body>
 </html>
------------------------------------------>
+<!--------------------------------------------------------->
 <HR NOSHADE SIZE="8" color="#00ccff">
 <HR NOSHADE SIZE="8">
 <!-----------------------------WHATZAPP AUTOMATICO--------->
